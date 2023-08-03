@@ -1,8 +1,6 @@
-import Email from "./email"
-import { renderToString } from 'react-dom/server';
+import email from "./email"
 
 (() => {
-    const html = renderToString(Email());
-    console.log(html);
+    console.log(email());
     console.log("Done");
 })()
